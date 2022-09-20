@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <section id="title">
+    <div class="container">
+        <h1 class="text-center mt-2 border-bottom">DEPOSITE YOUR MONEY </h1>
+    </div>
+   </section>
+
+<section id="form">
+     <div class="container">
+           <div class="form form-control">
+                <input class="form-control form1" type="text" placeholder="Username">
+                <input class="form-control mt-3 form2" type="email" placeholder="Email">
+                <input class="form-control mt-3 form3" type="password" placeholder="Password">
+           </div>
+           <button class="btn btn-success mt-4 text-bold">Go to next</button>
+        <div  id="warning-area"> 
+            <h4 class="eror-text text-danger mt-4">Wrong Information</h4>
+            <h4 class="reset-info mt-3"> <a href="#" title="reset information">Reset Your Information</a> </h4>
+        </div>
+     </div>
+</section>
+
+
+<section id="main-area">
+
+ <section id="deposita-area">
+     <div class="container">
+          <div class="row">
+              <div class="col-md-4 mt-4">
+                   <div class="area">
+                        <h3>total Deposit   </h3>
+                        <h3 id="deposit">00</h3>
+                   </div>
+              </div>
+              <div class="col-md-4 mt-4">
+                <div class="area area2">
+                     <h3>total widtdraw    </h3>
+                     <h3 id="withdraw">00</h3>
+                </div>
+           </div>
+           <div class="col-md-4 mt-4">
+            <div class="area area3">
+                 <h3>total balance    </h3>
+                 <h3 id="total">1000</h3>
+            </div>
+       </div>
+          </div>
+     </div>
+ </section>
+
+<section id="deposit-input">
+   <div class="container">
+       <div class="deposit-input-area form-control">
+            <div class="row">
+                 <div class="col-md-6">
+                      <div class="input-area form-control">
+                        <input class="form-control depo-form" type="number" placeholder="Deposit">
+                        <button class="btn btn-success mt-3 depo-btn">Deposit</button>
+                      </div>
+                 </div>
+                 <div class="col-md-6">
+                    <div class="input-area form-control">
+                      <input class="form-control withdraw-form" type="number" placeholder="Deposit">
+                      <button class="btn btn-success mt-3 width-btn">Widtdraw</button>
+                    </div>
+               </div>
+            </div>
+       </div>
+   </div>
+</section>
+
+</section>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

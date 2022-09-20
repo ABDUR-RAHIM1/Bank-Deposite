@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+#form{
+    width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+}
+#warning-area{
+    display: none;
+}
+
+
+
+
+#main-area{
+    display: none;
+}
+.area {
+    background-color: #fb00ff;
+    padding: 50px 70px;
+    height: 166px;
+    border-radius: 5px;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+.area  h1{
+    font-size: 12px;
+}
+.area2{
+    background-color: #e10c5a;
+}
+.area3{
+    background-color: #4ad21e;
+}
+
+#deposit-input{
+    margin: 50px 10px;
+}
+.input-area{
+    padding: 30px 10px;
+}
